@@ -26,3 +26,7 @@ start .       # Open the folder we just created
 +
 NOTE: Type 'Ctrl-C' in Git Bash to stop the web server.
 . Open +src/main/java/Main.java+ to see the source code.
+
+== Next steps
+
+See https://github.com/perwendel/spark[more examples] of using Spark.
