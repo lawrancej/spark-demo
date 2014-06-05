@@ -1,0 +1,28 @@
+= Spark Demo
+
+This is a self-contained demonstration of Spark.
+
+== Setup
+
+. http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html[Download and Install Java 8 JDK]
+. Next, add +JAVA_HOME+ to your environment variables:
++
+'Computer' -> 'System properties' -> 'Advanced system settings' -> 'Environment Variables...' -> 'User variables' -> 'New...'
++
+Variable name: +JAVA_HOME+
++
+Variable value: +C:\Program Files\Java\jdk1.8.0_05+
+. Click OK, OK, OK.
+. Open Git Bash and type:
++
+----
+cd ~          # Go to your home directory
+git clone https://github.com/lawrancej/spark-demo.git
+cd spark-demo # Go into the folder we just made
+start .       # Open the folder we just created
+./gradlew run # Run the demo
+----
+. Open http://localhost:4567 and you should see "Hello, world!" (unless you goofed up a step along the way)
++
+NOTE: Type 'Ctrl-C' in Git Bash to stop the web server.
+. Open +src/main/java/Main.java+ to see the source code.
