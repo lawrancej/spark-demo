@@ -1,0 +1,19 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'application'
+
+mainClassName = "Main"
+version = '0.0.1'
+description = "Spark demo"
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '1.12'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.sparkjava:spark-core:2.0.0'
+}
