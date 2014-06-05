@@ -1,6 +1,6 @@
 = Spark Demo
 
-This is a self-contained demonstration of Spark.
+This is a self-contained demonstration of http://www.sparkjava.com/readme.html[Spark].
 
 == Setup
 
