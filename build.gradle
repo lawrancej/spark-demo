@@ -16,4 +16,5 @@ repositories {
 
 dependencies {
     compile 'com.sparkjava:spark-core:2.0.0'
+    compile 'com.sparkjava:spark-template-mustache:1.0.0'
 }
